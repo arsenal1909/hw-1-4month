@@ -20,7 +20,7 @@ function App() {
     setState(state - 10)
   }
   function divide() {
-    setState(state % 10)
+    setState(state / 10)
   }
   function multiply() {
     setState(state * 10)
